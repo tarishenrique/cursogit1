@@ -8,10 +8,78 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         <title>Curso Git - Taris Henrique</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
     </head>
     <body>
-        <div>TODO write content
+        <div class="container-fluid">
             <h1> Aprendendo a utilizar o Git e o Github </h1>
+
+            <table class="table table-bordered table-sm">
+                <thead>
+                  <tr>
+                    <th>Comando</th>
+                    <th>Função</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>git init</td>
+                    <td>Adicionar pasta ao github</td>
+                  </tr>
+                  <tr>
+                    <td>git status</td>
+                    <td>Verificar status dos arquivos no git</td>
+                  </tr>
+                  <tr>
+                    <td>git add .</td>
+                    <td>Adicionar todos os arquivos da pasta ao git</td>
+                  </tr>
+                    <tr>
+                    <td>git commit -m "commit inicial"
+</td>
+                    <td>Criar commit (nova versão) no git</td>
+                  </tr>
+                    <tr>
+                    <td>git config --global user.email "email@email.com"
+</td>
+                    <td>Adiciona email de acesso ao Github</td>
+                  </tr>
+                    <tr>
+                    <td>git config --global user.name "Taris Henrique"</td>
+                    <td>Adiciona nome que ficará registrado no commit</td>
+                  </tr>
+                    <tr>
+                    <td>git push</td>
+                    <td>Subir a versão do repositório para o Github</td>
+                  </tr>
+                    <tr>
+                    <td>git remote add origin https://github.com/tarishenrique/xxxxxxx</td>
+                    <td>Adcionar para qual repositório o upload será realizado</td>
+                  </tr>
+                    <tr>
+                    <td>git reflog</td>
+                    <td>Visualizar versão que já foram lançadas no git</td>
+                  </tr>
+                    <tr>
+                    <td>git reset --hard idxxxx</td>
+                    <td>Alternar a pasta atual para as versões já existentes no git</td>
+                  </tr>
+                    <tr>
+                    <td>git branch</td>
+                    <td>Visualizar branchs existentes e qual a branch que está sendo utilizada no momento</td>
+                  </tr>
+                    <tr>
+                    <td>git branch checkout xxxxx</td>
+                    <td>Alternar entre branchs existentes</td>
+                  </tr>
+                    
+                </tbody>
+              </table>
 
         </div>
     </body>
